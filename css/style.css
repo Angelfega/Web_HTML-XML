@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding-top: 80px;
+    position: relative;
+    padding-bottom: 14.5em;
+    min-height: 100vh;
+    background-image: url("../img/fondogif.gif");
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    margin-left: 20px;
+}
+
+nav a {
+    padding-right: 60px;
+    font-family: 'Open Sans';
+}
+
+nav a:hover{
+    color: #5CE1E6;
+}
+
+.presentacio {
+    padding: 305px;
+    text-align: center;
+    color: white;
+}
+
+.presentacio h1 {
+    font-family: 'League Spartan';
+    font-size: 92px;
+    text-shadow: -9px -7px #5CE1E6;
+}
+
+.presentacio h2 {
+    font-family: 'League Spartan';
+    font-size: 37px;
+}
+
+.team {
+    background-image: linear-gradient(#002233, #007FA0);
+    padding: 1px;
+}
+
+.team table {
+    margin: auto;
+}
+
+.team td {
+    padding: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+.team p {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    color: white;
+}
+
+.team h2 {
+    font-family: 'League Spartan';
+    font-size: 52px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.descripcio {
+    background-color: #007FA0;
+    padding-top: 50px;
+}
+
+.descripcio p {
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 22px;
+}
+.descripcio img {
+    width: 200px;
+}
+
+.descripcio table {
+    margin: auto;
+}
+
+.descripcio td {
+    padding: 100px;
+    margin: auto;
+}
+
+.pie-pagina {
+    background-color: #1C3166;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.pie-pagina .grupo-1 .columna figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+
+.pie-pagina .grupo-1 .columna figure img {
+    width: 175px;
+    margin: 0px;
+}
+
+.pie-pagina .grupo-1 .columna h2 {
+    font-family: 'Open Sans';
+    font-size: 22px;
+    color:white;
+}
+
+.pie-pagina .grupo-1 .columna img {
+    width: 140px;
+    margin-left: 10px;
+}

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="css/treballs.css"?>
+<!DOCTYPE pagina SYSTEM "dtd/treball.dtd">
+<pagina>
+   <cap_pagina>
+        <a href="index.html" xmlns="http://www.w3.org/1999/xhtml">
+            <logo_unanros id="logo_unanros"></logo_unanros>
+        </a>
+        <apartats>
+            <sobre_mi_apartat><a href="sobremi.xml" xmlns="http://www.w3.org/1999/xhtml">NOSALTRES</a></sobre_mi_apartat>
+            <treballs><a href="treballs.xml" xmlns="http://www.w3.org/1999/xhtml">TREBALLS</a></treballs>
+            <contacte><a href="contacte.html" xmlns="http://www.w3.org/1999/xhtml">CONTACTE</a></contacte>
+        </apartats>
+    </cap_pagina>
+
+    <cos_pagina>
+        <titulo>TREBALLS </titulo>
+
+        <nombre>Ángel Ferrín: </nombre>
+        
+        <contingutnom> 
+            <projecte_atribut> Projecte 1: </projecte_atribut>
+            <projecte>Treball final de 1r SMX </projecte> 
+            <salt></salt>
+            <descripcio_atribut> Descripció: </descripcio_atribut> 
+            <descripcio>Creació de dues LANs connectades entre si amb dos encaminadors. Cada LAN té el seu propi switch i un Windows Server o un Ubuntu Server que dona servei AD, DHCP, DNS i un servei web a un client Dualboot. </descripcio>
+            <salt></salt>
+            <nota_atribut> Nota: </nota_atribut> 
+            <nota>59/80</nota>
+            <salt_final></salt_final>
+
+
+            <projecte_atribut> Projecte 2: </projecte_atribut>
+            <projecte>Treball final de 2n SMX </projecte> 
+            <salt></salt>
+            <descripcio_atribut> Descripció: </descripcio_atribut> 
+            <descripcio>Creació d'una web utilitzant WordPress i després un health del servidor que l'emmagatzemaba. Vam haver d'exportar el contingut dels arxius i posteriorment mostrar-los en un dashboard en HTML. </descripcio>
+            <salt></salt>
+            <nota_atribut> Nota: </nota_atribut> 
+            <nota>8,7/10</nota>
+            <salt_final></salt_final>
+
+
+            <projecte_atribut> Projecte 3: </projecte_atribut>
+            <projecte>Formació i orientació laboral. </projecte> 
+            <salt></salt>
+            <descripcio_atribut> Descripció: </descripcio_atribut> 
+            <descripcio>Pla de prevenció de l'Institut Manuel Vázquez Montalbán. Analització de l'edifici en l'àmbit arquitectònic, a escala de riscos, a nivell de senyalèctica, i possibles solucions amb els pressupostos. </descripcio>
+            <salt></salt>
+            <nota_atribut> Nota: </nota_atribut> 
+            <nota>85/100</nota>
+            <salt></salt>
+           
+    
+        </contingutnom>
+
+        <salt></salt>
+
+        <nombre>Unai Piñol: </nombre>
+
+        <contingutnom> 
+
+            <projecte_atribut> Projecte 1: </projecte_atribut>
+            <projecte>Treball final de 1r SMX </projecte>
+            <salt></salt> 
+            <descripcio_atribut> Descripció: </descripcio_atribut> 
+            <descripcio>Creació d'un vídeo sobre una empresa de cosmètics en anglès, amb la seva edició i productes editats amb un editor d'imatges de l'empresa en qüestió. </descripcio>
+            <salt></salt>
+            <nota_atribut> Nota: </nota_atribut> <nota>65/80</nota>
+            <salt_final></salt_final>
+
+            <projecte_atribut> Projecte 2: </projecte_atribut>
+            <projecte>Treball final de 2n SMX </projecte> 
+            <salt></salt>
+            <descripcio_atribut> Descripció: </descripcio_atribut> 
+            <descripcio>Creació d'una web utilitzant WordPress i després un script amb la funció de fer backups a les darreres edicions de la pàgina. </descripcio>
+            <salt></salt>
+            <nota_atribut> Nota: </nota_atribut> <nota>7/10</nota>
+            <salt_final></salt_final>
+
+            <projecte_atribut> Projecte 3: </projecte_atribut>
+            <projecte>Treball Implementació de sistemes operatius 1r ASIX </projecte> 
+            <salt></salt>
+            <descripcio_atribut> Descripció: </descripcio_atribut> 
+            <descripcio>Treball d'implementar diferents sistemes operatius dins d'una mateixa màquina, amb dualboot. Identificació d'errades i solucions. </descripcio>
+            <salt></salt>
+            <nota_atribut> Nota: </nota_atribut> <nota>85/100</nota>
+            <salt></salt>
+    
+        </contingutnom>
+
+        <salt></salt>
+
+        <nombre>Andrei Roșu:</nombre>
+
+        <contingutnom>
+
+            <projecte_atribut> Projecte 1: </projecte_atribut>
+            <projecte>Treball Implementació de sistemes operatius 1r ASIX </projecte> 
+            <salt></salt>
+            <descripcio_atribut> Descripció: </descripcio_atribut> 
+            <descripcio>Vam haver de fer un examen per la implementació del Dualboot entre Ubuntu i Windows. Vaig redactar un document amb tots els processos i errors obtinguts, cosa que la professora ho va valorar molt positivament. </descripcio>
+            <salt></salt>
+            <nota_atribut> Nota: </nota_atribut> <nota>10/10</nota>
+            <salt_final></salt_final>
+
+
+            <projecte_atribut> Projecte 2: </projecte_atribut>
+            <projecte>Treball Implementació de sistemes operatius 1r ASIX </projecte> 
+            <salt></salt>
+            <descripcio_atribut> Descripció: </descripcio_atribut> 
+            <descripcio>Vam haver-hi que crear i modificar usuaris i grups en el Windows 11. Vaig fer aquesta pràctica tres vegades: amb la interfície gràfica, amb CMD i amb PowerShell. </descripcio>
+            <salt></salt>
+            <nota_atribut> Nota: </nota_atribut> <nota>10/10</nota>
+            <salt_final></salt_final>
+
+
+            <projecte_atribut> Projecte 3: </projecte_atribut>
+            <projecte>Treball Programació Bàsica 1r ASIX </projecte> 
+            <salt></salt>
+            <descripcio_atribut> Descripció: </descripcio_atribut> 
+            <descripcio>Un programa en Python que calculava notes d'alumnes introduïts per l'usuari i els classificava en diferents categories segons les notes. </descripcio>
+            <salt></salt>
+            <nota_atribut> Nota: </nota_atribut> <nota>-</nota>
+            <salt></salt>
+
+        
+        </contingutnom>
+        
+
+        <salt></salt>
+
+    </cos_pagina>
+
+   <peu_pagina>
+        <a href="index.html" xmlns="http://www.w3.org/1999/xhtml">
+            <logo_unanros_pie id="logo_unanros_pie"></logo_unanros_pie>
+        </a>
+        <dades>
+            <h2>LES NOSTRES DADES</h2>
+            <correu_angel>aferrin@institutmvm.cat</correu_angel>
+            <correu_unai>upinol@institutmvm.cat</correu_unai>
+            <correu_andrei>arosu@institutmvm.cat</correu_andrei>
+        </dades>
+        <collaboradors>
+            <h2>COL·LABORADORS</h2>
+            <a href="https://fp.institutmvm.cat" xmlns="http://www.w3.org/1999/xhtml">
+                <logo_mvm id="logo_mvm"></logo_mvm>
+            </a>
+        </collaboradors>
+    </peu_pagina>
+</pagina>

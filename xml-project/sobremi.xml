@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="css/sobremi.css"?>
+<sobre_mi>
+
+    <!--Header de la pàgina web-->
+
+    <cap_pagina>
+        <a href="index.html" xmlns="http://www.w3.org/1999/xhtml">
+            <logo_unanros id="logo_unanros"></logo_unanros>
+        </a>
+        <apartats>
+            <sobre_mi_apartat><a href="sobremi.xml" xmlns="http://www.w3.org/1999/xhtml">NOSALTRES</a></sobre_mi_apartat>
+            <treballs><a href="treballs.xml" xmlns="http://www.w3.org/1999/xhtml">TREBALLS</a></treballs>
+            <contacte><a href="contacte.html" xmlns="http://www.w3.org/1999/xhtml">CONTACTE</a></contacte>
+        </apartats>
+    </cap_pagina>
+
+    <!--Part central de la pàgina web-->
+
+    <membres>
+        <titol>NOSALTRES</titol>
+        <membre_grup id="angel">
+            <nom_cognom>
+                <nom>Ángel</nom>
+                <cognom>Ferrín</cognom>
+            </nom_cognom>
+            <edat>
+                <edat_atribut>EDAT:</edat_atribut>
+                <edat_nombre>18 anys</edat_nombre>
+            </edat>
+            <estudis_superiors>
+                <estudis_superiors_atribut>ESTUDIS SUPERIORS:</estudis_superiors_atribut>
+                <estudis_cadascu>Grau mitjà - Sistemes microinformàtics i xarxes</estudis_cadascu>
+            </estudis_superiors>
+            <qualitats>
+                <qualitats_atribut>QUALITATS:</qualitats_atribut>
+                    <qualitat_1>● Eficient</qualitat_1>
+                    <qualitat_2>● Treball en equip</qualitat_2>
+                    <qualitat_3>● Competidor</qualitat_3>
+            </qualitats>
+            <camp_informatica>
+                <coneixements_atribut>CONEIXEMENTS INFORMÀTICS:</coneixements_atribut>
+                <coneixement_1>● HTML</coneixement_1>
+                <coneixement_2>● CSS</coneixement_2>
+                <coneixement_3>● Python</coneixement_3>
+                <coneixement_4>● XML</coneixement_4>
+            </camp_informatica>
+        </membre_grup>
+
+        <membre_grup id="unai">
+            <nom_cognom>
+                <nom>Unai</nom>
+                <cognom>Piñol</cognom>
+            </nom_cognom>
+            <edat>
+                <edat_atribut>EDAT:</edat_atribut>
+                <edat_nombre>18 anys</edat_nombre>
+            </edat>
+            <estudis_superiors>
+                <estudis_superiors_atribut>ESTUDIS SUPERIORS:</estudis_superiors_atribut>
+                <estudis_cadascu>Grau mitjà - Sistemes microinformàtics i xarxes</estudis_cadascu>
+            </estudis_superiors>
+            <qualitats>
+                <qualitats_atribut>QUALITATS:</qualitats_atribut>
+                    <qualitat_1>● Paciència</qualitat_1>
+                    <qualitat_2>● Capacitat de resolució de problemes</qualitat_2>                    
+                    <qualitat_3>● Capaçitat d'entendre diferents opinions</qualitat_3>
+            </qualitats>
+            <camp_informatica>
+                <coneixements_atribut>CONEIXEMENTS INFORMÀTICS:</coneixements_atribut>
+                <coneixement_1>● HTML</coneixement_1>
+                <coneixement_2>● CSS</coneixement_2>
+                <coneixement_3>● Python</coneixement_3>
+                <coneixement_4>● XML</coneixement_4>
+            </camp_informatica>
+
+        </membre_grup>
+        <membre_grup id="andrei">
+            <nom_cognom>
+                <nom>Andrei</nom>
+                <cognom>Roșu</cognom>
+            </nom_cognom>
+            <edat>
+                <edat_atribut>EDAT:</edat_atribut>
+                <edat_nombre>19 anys</edat_nombre>
+            </edat>
+            <estudis_superiors>
+                <estudis_superiors_atribut>ESTUDIS SUPERIORS:</estudis_superiors_atribut>
+                <estudis_cadascu>Batxillerat - Científic</estudis_cadascu>
+            </estudis_superiors>
+            <qualitats>
+                <qualitats_atribut>QUALITATS:</qualitats_atribut>
+                    <qualitat_1>● Empàtic</qualitat_1>
+                    <qualitat_2>● Creatiu</qualitat_2>
+                    <qualitat_3>● Treballador</qualitat_3>
+            </qualitats>
+            <camp_informatica>
+                <coneixements_atribut>CONEIXEMENTS INFORMÀTICS:</coneixements_atribut>
+                <coneixement_1>● HTML</coneixement_1>
+                <coneixement_2>● CSS</coneixement_2>
+                <coneixement_3>● Python</coneixement_3>
+                <coneixement_4>● XML</coneixement_4>
+            </camp_informatica>
+        </membre_grup>
+    </membres>
+
+    <!--Footer de la pàgina web-->
+
+    <peu_pagina>
+        <a href="index.html" xmlns="http://www.w3.org/1999/xhtml">
+            <logo_unanros_pie id="logo_unanros_pie"></logo_unanros_pie>
+        </a>
+        <dades>
+            <h2>LES NOSTRES DADES</h2>
+            <correu_angel>aferrin@institutmvm.cat</correu_angel>
+            <correu_unai>upinol@institutmvm.cat</correu_unai>
+            <correu_andrei>arosu@institutmvm.cat</correu_andrei>
+        </dades>
+        <collaboradors>
+            <h2>COL·LABORADORS</h2>
+            <a href="https://fp.institutmvm.cat" xmlns="http://www.w3.org/1999/xhtml">
+                <logo_mvm id="logo_mvm"></logo_mvm>
+            </a>
+        </collaboradors>
+    </peu_pagina>
+
+</sobre_mi>

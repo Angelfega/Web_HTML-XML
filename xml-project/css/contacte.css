@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding-top: 80px;
+    position: relative;
+    min-height: 91.7vh;
+    background-color: #00a9d4;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1C3166;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 20px;
+}
+
+nav a {
+    padding-right: 50px;
+    font-family: 'Open Sans';
+}
+
+nav a:hover{
+    color: #5CE1E6;
+}
+
+td {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p.primera-linea, p.tel, p.email, p.direccion {
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Roboto';
+    text-align: left;
+}
+
+.contacte i {
+    color: #240047;
+    margin-right: 10px;
+}
+
+.ubicacion {
+    width: 30px;
+}
+
+form {
+    width: 450px;
+    margin: auto;
+    background-color: #1C3166;
+    padding: 10px 20px;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+    font-family: 'League Spartan';
+    text-align: center;
+}
+
+input.nom {
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input::placeholder, textarea::placeholder {
+    color: black;
+    font-size: 18px;
+    font-family: 'Open Sans';
+}
+
+textarea {
+    min-height: 200px;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    font-family: 'Open Sans';
+}
+
+input.submit {
+    background-color: #00a9d4;
+    padding: 10px;
+    font-family: 'League Spartan';
+    font-size: 18px;
+}
+
+.pie-pagina {
+    background-color: #1C3166;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.pie-pagina .grupo-1 .columna figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+
+.pie-pagina .grupo-1 .columna figure img {
+    width: 175px;
+    margin: 0px;
+}
+
+.pie-pagina .grupo-1 .columna h2 {
+    font-family: 'Open Sans';
+    font-size: 22px;
+    color:white;
+}
+
+.pie-pagina .grupo-1 .columna p {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color:white;
+}
+
+.pie-pagina .grupo-1 .columna img {
+    width: 140px;
+    margin-left: 10px;
+}

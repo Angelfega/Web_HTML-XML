@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=League+Spartan');
+/*Anem a fer el cap de la pàgina.*/
+
+cap_pagina{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1C3166;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 1; /*Amb això ens assegurem que el cap de la pàgina estigui a on correspon.*/
+}
+
+a, a:link, a:visited, a:active{
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+
+a:hover {
+    color:#5CE1E6;
+}
+
+logo_unanros {
+    display: flex;
+    width: 173px;
+    height: 53px;
+    margin-left: 20px;
+}
+
+#logo_unanros{
+    background-image: url("../img/logo.png");
+}
+
+/*Són els altres apartats del treball.*/
+sobre_mi_apartat, treballs, contacte {
+    padding: 30px;
+    margin-right: 10px;
+}
+
+sobre_mi_apartat:hover, treballs:hover, contacte:hover {
+    color:#00a9d4;
+}
+
+/*Editem la part centra d'aquest apartat*/
+
+titol {
+
+    color:white;
+    font-family: 'League Spartan';
+    font-size: 64px;
+    padding: 40px;
+    text-shadow: 0 0 10px #7de5ff;
+}
+
+membres {
+    display: flex;
+    flex-direction: column; /*Fica cada caixa en forma de columna.*/
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#1C3166, #00a9d4);
+    margin-top: 90px;
+    padding-bottom: 10px;
+}
+
+membre_grup {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 50px;
+    width: 50%;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    position: relative;
+}
+
+/*Configurem les fotos de cadascú al costat de cada quadre.*/
+
+#angel::before {
+
+    content: "";
+    background-image: url("../img/angel.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    transform: translateY(-50%); /*Centra la imatge verticalment.*/
+
+}
+
+#unai::before {
+
+    content: "";
+    background-image: url("../img/unai.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    transform: translateY(-50%); /*Centra la imatge verticalment.*/
+
+}
+
+#andrei::before {
+
+    content: "";
+    background-image: url("../img/andrei.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    transform: translateY(-50%); /*Centra la imatge verticalment.*/
+
+}
+
+nom_cognom {
+    color: #1C3166;
+    font-family: 'League Spartan';
+    list-style: disc inside;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 300%;
+    text-align: center;
+}
+
+edat_atribut, estudis_superiors_atribut, qualitats_atribut, coneixements_atribut {
+    font-weight: 700;
+    color: #5CE1E6;
+}
+
+edat, estudis_superiors, qualitats, camp_informatica {
+    color: #1C0021;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+edat_nombre, estudis_cadascu, qualitat_1, qualitat_2, qualitat_3, coneixement_1, coneixement_2, coneixement_3, coneixement_4 {
+    color: #1C0021;
+}
+
+/*L'estil del peu de pàgina.*/
+
+peu_pagina {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1C3166;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100;
+    position:static;
+    bottom: 0;
+    font-size: 14px;
+}
+
+unanros, dades, collaboradors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+
+dades {
+    padding-left: 200px;
+}
+
+collaboradors {
+    margin-top: 0;
+}
+
+collaboradors h2 {
+    padding-bottom: 20px;
+}
+
+correu_angel, correu_unai, correu_andrei {
+    margin-top: 20px;
+    font-size: 16px;
+    margin-left: -55px;
+}
+
+logo_unanros_pie {
+    display: flex;
+    width: 173px;
+    height: 53px;
+    margin-left: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo_unanros_pie {
+    background-image: url("../img/logo.png");
+}
+
+logo_mvm {
+    display: flex;
+    width: 173px;
+    height: 53px;
+}
+
+h2 {
+    font-family: 'Open Sans';
+    font-size: 22px;
+    color:white;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: -55px;
+ }  
+
+#logo_mvm {
+    background-image: url("../img/logo-mvm.png");
+}

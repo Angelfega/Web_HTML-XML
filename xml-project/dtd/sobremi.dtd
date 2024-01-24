@@ -1,0 +1,39 @@
+<!ELEMENT sobre_mi (cap_pagina, membres, peu_pagina)>
+<!ELEMENT cap_pagina (logo_unanros, apartats)>
+<!ELEMENT logo_unanros (EMPTY)>
+<!ELEMENT apartats (sobre_mi_apartat, treballs, contacte)>
+<!ELEMENT sobre_mi_apartat (#PCDATA)>
+<!ELEMENT treballs (#PCDATA)>
+<!ELEMENT contacte (#PCDATA)>
+
+<!ELEMENT membres (membre_grup+)>
+<!ELEMENT membre_grup (nom_cognom, edat, estudis_superiors, qualitats, camp_informatica)>
+<!ATTLIST membre_grup id ID #REQUIRED>
+<!ELEMENT nom_cognom (nom, cognom)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT cognom (#PCDATA)>
+<!ELEMENT edat (edat_atribut, edat_nombre)>
+<!ELEMENT edat_atribut (#PCDATA)>
+<!ELEMENT edat_nombre (#PCDATA)>
+<!ELEMENT estudis_superiors (estudis_superiors_atribut, estudis_cadascu)>
+<!ELEMENT estudis_superiors_atribut (#PCDATA)>
+<!ELEMENT estudis_cadascu (#PCDATA)>
+<!ELEMENT qualitats (qualitats_atribut, qualitat_1, qualitat_2, qualitat_3)>
+<!ELEMENT qualitats_atribut (#PCDATA)>
+<!ELEMENT qualitat_1 (#PCDATA)>
+<!ELEMENT qualitat_2 (#PCDATA)>
+<!ELEMENT qualitat_3 (#PCDATA)>
+<!ELEMENT camp_informatica (coneixement_1, coneixement_2, coneixement_3, coneixement_4)>
+<!ELEMENT coneixement_1 (#PCDATA)>
+<!ELEMENT coneixement_2 (#PCDATA)>
+<!ELEMENT coneixement_3 (#PCDATA)>
+<!ELEMENT coneixement_4 (#PCDATA)>
+
+<!ELEMENT peu_pagina (logo_unanros, dades, collaborators)>
+<!ELEMENT dades (correu_angel, correu_unai, correu_andrei)>
+<!ELEMENT correu_angel (#PCDATA)>
+<!ELEMENT correu_unai (#PCDATA)>
+<!ELEMENT correu_andrei (#PCDATA)>
+<!ELEMENT collaborators (mvm, logo_mvm)>
+<!ELEMENT mvm (#PCDATA)>
+<!ELEMENT logo_mvm EMPTY>
